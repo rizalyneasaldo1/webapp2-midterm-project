@@ -1,0 +1,127 @@
+* {
+    /* border: solid red 1px; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7EA1FF;
+}
+
+#border {
+    border: 2px solid gray;
+    background-color: white;
+    height: 420px;
+    width: 620px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #ffffff; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#wholeContainer { 
+    margin: auto;
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: #E3E1D9;
+    display: flex;
+}
+
+.ImageContainer{
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 250px;
+    width: 250px;  
+}
+
+.Image {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black; 
+}
+
+.TitleContainer {
+    width: 230px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    margin:auto;
+    float: right;
+}
+
+.Title {
+    padding-top: 5px;
+    width: 230px;
+    background-color: #E3E1D9;
+}
+
+h6 {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    background-color: #E3E1D9;
+    padding-bottom: 5px;
+}
+
+#back {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    margin-left: 43%;
+    background-color: rgb(0, 110, 255);
+    color: rgb(0, 0, 0);
+}
+
+#back:hover {
+    background-color: rgb(0, 26, 59);
+    color: rgb(255, 255, 255);
+}
+
+
+@media only screen and (max-width: 600px) {
+    #border {
+        width: 80%;
+        height: auto;
+    }
+
+    #wholeContainer { 
+        width: 93%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .ImageContainer{
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .Image {
+        width: 100%;
+    }
+
+    .TitleContainer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .Title {
+        padding-top: 5px;
+        width: 100%;
+    }    
+
+    #back {
+        margin-left: 23%;
+        margin-right: auto;
+    }
+}
